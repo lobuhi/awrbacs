@@ -25,7 +25,7 @@ Usage of ./awrbacs:
   -kubeconfig string
         Path to the kubeconfig file (default "$HOME/.kube/config")
   -no-kube-system
-        Do not check resources in the kube-system namespace
+        Do not check system:* users nor ServiceAccounts in kube-system.
   -sa value
         Service accounts to impersonate in the format namespace:serviceaccount
   -self
